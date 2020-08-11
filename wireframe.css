@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+}
+
+input{
+    padding-bottom: 20px;
+}
+
+.button {
+    background-color: black;
+    color: white; /* Green */
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 25px;
+
+  }
+
+  .main-button{
+      margin-top: 20%;
+  }
