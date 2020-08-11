@@ -10,16 +10,24 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
+    margin: 2%;
 }
 
-input{
+body .index{
+    justify-content: flex-end;
+}
+
+main h1, h2{
+    text-align: center;
+}
+
+main div input{
     padding-bottom: 20px;
 }
 
-.button {
+main button {
     background-color: black;
-    color: white; /* Green */
+    color: white;
     border: none;
     padding: 15px 25px;
     text-align: center;
@@ -30,6 +38,19 @@ input{
 
   }
 
-  .main-button{
-      margin-top: 20%;
+  main .index-button {
+      margin-top: 50vh;
+  }
+
+  main .questionPage{
+      text-align: justify;
+  }
+
+
+  main div .answer{
+      padding: 1vh;
+  }
+
+  main div {
+      margin-top: 10vh;
   }
